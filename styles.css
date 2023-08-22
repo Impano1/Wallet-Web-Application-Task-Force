@@ -1,0 +1,46 @@
+/* Basic styling for header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Styling for transaction form and data display */
+#transaction-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+#transaction-form input[type="number"],
+#transaction-form input[type="text"],
+#transaction-form select {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+#transaction-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling for report section */
+#report {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+/* Styling for notification section */
+#notification {
+    padding: 10px;
+    background-color: #ff9999;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
