@@ -1,46 +1,83 @@
-/* Basic styling for header */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+* {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
 }
 
-/* Styling for transaction form and data display */
-#transaction-form {
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f7f7f7;
-    margin-bottom: 20px;
+body {
+  background: #042159;
+  color: #77d9ab;
 }
 
-#transaction-form input[type="number"],
-#transaction-form input[type="text"],
-#transaction-form select {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 150px;
+.title {
+  width: 500px;
+  color: #0869a6;
+  margin: 3% auto;
 }
 
-#transaction-list ul {
-    list-style-type: none;
-    padding: 0;
+.content {
+  width: 580px;
+  margin: 0 auto;
+  background-color: #0869a6;
+  padding: 3%;
+  padding-left: 6%;
 }
 
-/* Styling for report section */
-#report {
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f7f7f7;
-    margin-bottom: 20px;
+.secondTitle {
+  text-align: left;
+  margin: 2% 0;
+  font-weight: 100;
 }
 
-/* Styling for notification section */
-#notification {
-    padding: 10px;
-    background-color: #ff9999;
-    color: white;
-    text-align: center;
-    font-weight: bold;
+.form {
+  padding: 5px;
+}
+
+.formLine {
+  display: inline-flex;
+  padding: 5px 0px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-right: 100px;
+}
+
+input,
+select {
+  width: 130px;
+  margin-left: 10px;
+}
+
+/* table style */
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: #042159;
+  line-height: 30px;
+}
+
+/* Button */
+
+button {
+  width: 200px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 20px;
+  background-color: #04bf8a;
+  border-radius: 5px;
+  margin: 14px 25%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
 }
